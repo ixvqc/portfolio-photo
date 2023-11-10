@@ -1,0 +1,63 @@
+.OlaZuziaTosia-container{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100vw;
+    margin-left: 8vw;
+
+
+}
+
+.OlaZuziaTosia{
+    width:30vw;
+}
+
+
+.random-image{
+    width:13vw;
+    height:23vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.random-image img{
+    width:100%;
+    height:auto;
+
+}
+
+.random-image img:hover {
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+
+}
+
+.desc-olazuziatosia{
+    width:13vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2E7DC;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    font-size: 1.6vh;
+    text-align: center;
+    margin-top: 0.3vh;
+    color: #8c5230;
+    margin-bottom:10vh;
+
+
+}
+.desc-olazuziatosia p:hover {
+    color: black;
+
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sacramento&display=swap');
+
+.header{
+    width: 100%;
+    height: 150px;
+}
+.container-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height:150px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 967px) { /* jeśli szerokość jest większa od 400px  */
+
+    .oMnie{
+        display: none;
+
+    }
+    .oferta{
+        display: none;
+    }
+
+    .historie{
+        display: none;
+    }
+    .kontakt{
+        display: none;
+    }
+
+}
+
+.oMnie {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vh;
+
+}
+
+.oferta{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vh;
+
+}
+.logo{
+    font-family: 'Sacramento', cursive;
+    font-size: 5vh;
+
+
+}
+
+.historie{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vh;
+
+}
+
+.kontakt{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vh;
+
+}
+.logo p:hover{
+    color: #8c5230;
+    font-size: 5.3vh;
+
+}
+.oMnie p:hover{
+    color: #8c5230;
+    font-size: 2.8vh;
+
+}
+.oferta p:hover{
+    color: #8c5230;
+    font-size: 2.8vh;
+
+}
+.historie p:hover{
+    color: #8c5230;
+    font-size: 2.8vh;
+
+}
+.kontakt p:hover{
+    color: #8c5230;
+    font-size: 2.8vh;
+
+}

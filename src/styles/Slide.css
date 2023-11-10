@@ -1,0 +1,36 @@
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+
+}
+
+.slide {
+    display: inline-block;
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-top:3vh;
+    margin-bottom: 5vh;
+
+}
+@media screen and (max-width: 1120px) { /* jeśli szerokość jest większa od 400px  */
+    .slide{
+        display: inline-block;
+        width:100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+}
+
+

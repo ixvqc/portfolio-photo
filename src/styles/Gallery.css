@@ -1,0 +1,19 @@
+.read-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.read-images input{
+    display:none;
+}
+.read-images button{
+    display:none;
+}
+.read-images img {
+    width: 15vw;
+
+}

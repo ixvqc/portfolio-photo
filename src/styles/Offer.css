@@ -1,0 +1,137 @@
+.nav-offer{
+    display:flex;
+    flex-direction: column;
+    background-color: #F2E7DC;
+
+}
+.stworzmy-offer {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sacramento', cursive;
+    color: #733630;
+    font-size: 7vh;
+    margin-bottom: 5vh;
+    margin-top: 8vh;
+
+}
+.stworzmy-offer hr {
+    width:25vw;
+    background: #733630;
+    height:2px;
+}
+.first-text {
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 9vh;
+
+}
+.first-text p{
+    width:60vw;
+}
+
+
+@media screen and (max-width: 530px) {
+    .stworzmy-offer {
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Sacramento', cursive;
+        color: #733630;
+        font-size: 7vh;
+        text-align: center;
+
+    }
+    .stworzmy-offer hr {
+        width:15vw;
+        background: #733630;
+        height:3px;
+    }
+
+}
+.line-offer{
+    height:7vh;
+    width:50%;
+    border-right:2px solid  #733630;
+}
+.women-session-offer{
+    margin-top:16vh;
+    display:flex;
+    flex-direction: row;
+
+}
+@media screen and (min-width: 530px) {
+
+.women-session-offer img{
+    width:30vw;
+    margin-left:15vw;
+
+}
+}
+.women-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30vw;
+    margin-top:6vh;
+    margin-left: 3vw;
+}
+
+.women-text text{
+    font-family: 'Playfair Display', serif;
+    color: #733630;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+}
+.women-text p{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2vh;
+    text-align: center;
+
+}
+.second-line-offer{
+    height:14vh;
+    width:50%;
+    border-right:2px solid  #733630;
+    margin-top:10vh;
+}
+
+@media screen and (max-width: 530px) {
+    .women-session-offer{
+        margin-top:16vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .women-session-offer img{
+        width:80vw;
+
+    }
+    .women-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin-top:6vh;
+    }
+    .women-text text{
+        font-family: 'Playfair Display', serif;
+        color: #733630;
+        font-size: 6vh;
+        margin-bottom: 2vh;
+    }
+    .women-text p{
+        font-family: 'Playfair Display', serif;
+        font-size: 2.2vh;
+        text-align: center;
+
+    }
+}
+

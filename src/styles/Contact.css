@@ -1,0 +1,169 @@
+.nav-contact{
+    display:flex;
+    flex-direction: column;
+    background-color: #F2E7DC;
+    margin-top: 5vh;
+
+}
+.contact-text {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sacramento', cursive;
+    color: #733630;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    margin-top: 6vh;
+
+}
+.contact-text hr {
+    width: 40vw;
+    background: #733630;
+    height:2px;
+}
+.contact-desc {
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+
+}
+.contact-desc p{
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-line{
+    height:7vh;
+    width:50%;
+    border-right:2px solid  #733630;
+}
+
+.contact-options{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.contact-options-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:30%;
+}
+
+.contact-options p{
+    color: #8c5230;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vh;
+}
+
+@media screen and (max-width: 870px) {
+    .contact-options{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+    .contact-options-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width:50%;
+    }
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+}
+.form-contact input{
+    color: #DACABB;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+    width:20vw;
+    border :  solid #F2E7DC 2px;
+    height: 3.5vh;
+    box-shadow: 0px 3px 3px lightgray;
+
+}
+.message {
+    height:20vh;
+    text-align: start;
+    color: #DACABB;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vh;
+    width:20vw;
+    border :  solid #F2E7DC 2px;
+    box-shadow: 0px 3px 3px lightgray;
+}
+.message textarea::placeholder{
+    color: #DACABB;
+
+}
+
+.form-contact input::placeholder{
+    color: #DACABB;
+
+}
+.send-message{
+    height:8vh;
+    width:10vw;
+    font-size: 1.8vh;
+    font-family: 'Playfair Display', serif;
+    background: #A68877;
+    color:white;
+    border: 0;
+    margin-top: 5vh;
+}
+
+.reservation-text{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sacramento', cursive;
+    color: #733630;
+    font-size: 6vh;
+    margin-bottom: 5vh;
+    margin-top: 12vh;
+
+
+}
+.reservation-text hr {
+    width: 30vw;
+    background: #733630;
+    height:2px;
+
+}
+.selectedOption {
+    border-bottom: 2px solid #8c5230;
+}
+
+.background-date-reservation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background-date-reservation div{
+    background-color: #F2E7DC;
+    width: 45vw;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
